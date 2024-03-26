@@ -1,0 +1,108 @@
+5W1H - Tarefa de Requisitos
+
+Cadastro de Livros
+------------------------------
+
+What (O quê)?
+- Cadastro de informações sobre livros na biblioteca.
+
+Why (Por quê)?
+- Para manter um registro organizado e detalhado dos livros disponíveis na Biblioteca Comunitária Aurora.
+
+Who (Quem)?
+- Os bibliotecários ou funcionários responsáveis pelo gerenciamento do acervo.
+
+When (Quando)?
+- Sempre que um novo livro é adquirido ou quando há alterações nas informações de um livro existente.
+
+Where (Onde)?
+- No sistema de gerenciamento da biblioteca, acessível aos funcionários autorizados.
+
+How (Como)?
+O sistema deve permitir o registro de informações como título, autor, etc.
+
+Não funcional 
+- Armazenar os registros de forma segura e eficiente.
+- Facilitar a inserção de informações pelos usuários.
+
+livro.h
+livraria.h
+
+Pesquisa no Catálogo de Livros
+---------------------------------
+What (O quê)?
+- Pesquisa eficiente no catálogo de livros.
+
+Why (Por quê)?
+- Para permitir que os membros encontrem rapidamente os livros desejados.
+
+Who (Quem)?
+- Os membros da biblioteca e visitantes que desejam pesquisar livros.
+
+When (Quando)?
+- Sempre que possível.
+
+Where (Onde)?
+- No catálogo de livros da Biblioteca Comunitária Aurora.
+
+How (Como)?
+- O sistema deve oferecer pesquisa por título e autor
+
+Não funcional 
+- Retornar resultados relevantes de forma rápida
+
+livraria.h 
+
+Reservas 
+-------------
+What (O quê)?
+- Reservas online para os livros disponíveis na biblioteca.
+
+Why (Por quê)?
+- Para permitir que os usuários reservem livros de forma conveniente, mesmo quando não estão fisicamente na biblioteca.
+
+Who (Quem)?
+- Os membros da biblioteca e visitantes que desejam reservar livros.
+
+When (Quando)?
+- A qualquer momento, conforme a necessidade do usuário.
+
+Where (Onde)?
+- No sistema de gerenciamento da Biblioteca Comunitária Aurora, acessível via internet.
+
+How (Como)?
+O sistema deve permitir que os usuários selecionem os livros desejados para reserva.
+
+Não funcional 
+- Retornar resultados relevantes de forma rápida
+- Criar essa transação com menos de 1 segundo
+- Garantir segurança das informações
+
+livraria.h 
+
+Renovação de Empréstimos:
+
+What (O quê)?
+- Renovação de empréstimos de livros.
+
+Why (Por quê)?
+- Para permitir que os usuários estendam o período de empréstimo de livros, caso precisem de mais tempo para lê-los.
+
+Who (Quem)?
+- Os membros da biblioteca que têm livros emprestados.
+
+When (Quando)?
+- Antes do vencimento do prazo de empréstimo.
+
+Where (Onde)?
+- No sistema de gerenciamento da Biblioteca Comunitária Aurora ou no balcão de atendimento da biblioteca.
+
+How (Como)?
+O sistema deve permitir que os usuários solicitem a renovação online ou pessoalmente. Para isso são necessários
+os passos a seguir:
+
+- verificar se o livro não está reservado por outro usuário.
+- Atualizar a data de devolução para refletir a nova data de renovação.
+- Notificar os usuários sobre a renovação bem-sucedida.
+
+
