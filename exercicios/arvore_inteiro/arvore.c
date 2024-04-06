@@ -1,5 +1,4 @@
 #include <stdlib.h>
-#include <stdio.h>
 
 /*Os comentáraios estão de acordo com o que foi pedido, copiei grande parte
 do enunciado do exercício*/
@@ -104,18 +103,5 @@ int buscar_no(No* no, int x){
         else
             return buscar_no(no->esquerda, x);
     }
-}
-
-int main(){
-    Arvore* arvore = arvore_cria();
-    arvore_inserir(arvore, 10);
-    arvore_inserir(arvore, 0);
-    arvore_inserir(arvore, 20);
-    arvore_inserir(arvore, 5);
-    arvore_inserir(arvore, 25);
-    printf("%d\n", arvore_busca(arvore, 0));
-    printf("%d\n", arvore_busca(arvore, 10));
-    printf("%d\n", arvore_busca(arvore, 15));
-    printf("%d\n", arvore_busca(arvore, 25));
 }
 
