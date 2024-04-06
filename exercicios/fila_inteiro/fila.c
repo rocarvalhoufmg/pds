@@ -47,8 +47,16 @@ void fila_insere(Fila* fila, int x){
     fila->fim = no;
 }
 
+void libera_no(No* no){
+    if(no!=NULL){
+        No* proximo = no->proximo;
+        free(no);
+        libera_no(proximo);
+    }
+}
+
 void fila_libera(Fila* fila){
-    free(fila);
+    libera_no(fila->inicio);
 }
 
 void imprime_no(No* no){
