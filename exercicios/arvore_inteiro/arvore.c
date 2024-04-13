@@ -63,7 +63,7 @@ void inserir(No* no, int x){
             da subárvore.*/
             inserir(no->direita, x);
         }
-    }else{
+    }else if(no->valor > x){
         /*A ideia é a mesma, porém para valores menores devemos ir para esquerda*/
         if(no->esquerda == NULL){
             no->esquerda = criar_no(x);
