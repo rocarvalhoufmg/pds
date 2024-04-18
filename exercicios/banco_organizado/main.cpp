@@ -8,6 +8,9 @@ using std::endl;
 
 int main()
 {
+
+    Banco::quantidadeContas = 0;
+    
     Banco inter;
     Correntista correntista1("Rodrigo", "079779797979");
     Correntista correntista2("Flavia", "11111111111");
@@ -16,6 +19,7 @@ int main()
 
     inter.addConta(conta1);
     inter.addConta(conta2);
+
     cout << "Iremos ver " << Banco::quantidadeContas << " contas: " << endl;
     inter.verContas();
     return 0;

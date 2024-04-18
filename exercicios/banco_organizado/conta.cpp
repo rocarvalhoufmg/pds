@@ -2,7 +2,7 @@
 #include "conta.hpp"
 
 Conta::Conta(Correntista correntista, int numero):
-    correntista(correntista), numero(numero)
+    correntista(correntista), numero(numero),saldo(0)
 {
 
 }
