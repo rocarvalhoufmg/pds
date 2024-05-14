@@ -3,20 +3,20 @@
 #define ACESSORIOS_HPP
 
 //Ataque
-#include "../acessorios-hpp/Ataque/ArcoElfico.hpp"
-#include "../acessorios-hpp/Ataque/Cajado.hpp"
-#include "../acessorios-hpp/Ataque/Rosa.hpp"
-#include "../acessorios-hpp/Ataque/Colher.hpp"
-#include "../acessorios-hpp/Ataque/Espada.hpp"
-#include "../acessorios-hpp/Ataque/LivroDivino.hpp"
-#include "../acessorios-hpp/Ataque/Machado.hpp"
+#include "../acessorios-hpp/ataque/ArcoElfico.hpp"
+#include "../acessorios-hpp/ataque/Cajado.hpp"
+#include "../acessorios-hpp/ataque/Rosa.hpp"
+#include "../acessorios-hpp/ataque/Colher.hpp"
+#include "../acessorios-hpp/ataque/Espada.hpp"
+#include "../acessorios-hpp/ataque/LivroDivino.hpp"
+#include "../acessorios-hpp/ataque/Machado.hpp"
 
 //Defesa
-#include "../acessorios-hpp/Defesa/AmuletoDivino.hpp"
-#include "../acessorios-hpp/Defesa/Armadura.hpp"
-#include "../acessorios-hpp/Defesa/CapaDaFurtividade.hpp"
-#include "../acessorios-hpp/Defesa/Escudo.hpp"
-#include "../acessorios-hpp/Defesa/EscudoDeFerro.hpp"
-#include "../acessorios-hpp/Defesa/PergaminhoDeProtecao.hpp"
+#include "../acessorios-hpp/defesa/AmuletoDivino.hpp"
+#include "../acessorios-hpp/defesa/Armadura.hpp"
+#include "../acessorios-hpp/defesa/CapaDaFurtividade.hpp"
+#include "../acessorios-hpp/defesa/Escudo.hpp"
+#include "../acessorios-hpp/defesa/EscudoDeFerro.hpp"
+#include "../acessorios-hpp/defesa/PergaminhoDeProtecao.hpp"
 
 #endif // ACESSORIOS_HPP
