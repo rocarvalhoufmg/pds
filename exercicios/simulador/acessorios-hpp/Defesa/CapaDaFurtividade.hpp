@@ -2,10 +2,10 @@
 #define CAPADAFURTIVIDADE
 
 #include "../core-simulador-hpp/ArmaDefesa.hpp"
-class CadaDaFurtividade : public ArmaDefesa
+class CapaDaFurtividade : public ArmaDefesa
 {
     public:
-        CadaDaFurtividade(string descricaoArma, int resistencia);
+        CapaDaFurtividade(string descricaoArma, int resistencia);
         string getDescricaoArma() override;
         int getResistencia() override;
 };
