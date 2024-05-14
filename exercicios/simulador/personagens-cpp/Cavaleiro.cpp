@@ -17,5 +17,5 @@ int Cavaleiro::criarDefesa()
 
 string Cavaleiro::pegarDescricao() 
 {
-    return "Cavalgamos pela justiça!";
+    return "Cavalgamos pela justica!";
 }
