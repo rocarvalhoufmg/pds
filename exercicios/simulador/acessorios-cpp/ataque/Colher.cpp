@@ -1,5 +1,5 @@
 #include "../core-simulador-hpp/ArmaAtaque.hpp"
-#include "../acessorios-hpp/Colher.hpp"
+#include "../acessorios-hpp/ataque/Colher.hpp"
 
 Colher::Colher(string descricaoArma, int minForca, int maxForca)
 :ArmaAtaque(descricaoArma, minForca, maxForca)

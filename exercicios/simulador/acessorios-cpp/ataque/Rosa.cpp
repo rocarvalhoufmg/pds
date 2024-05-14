@@ -1,5 +1,5 @@
 #include "../core-simulador-hpp/ArmaAtaque.hpp"
-#include "../acessorios-hpp/Rosa.hpp"
+#include "../acessorios-hpp/ataque/Rosa.hpp"
 
 Rosa::Rosa(string descricaoArma, int minForca, int maxForca)
 :ArmaAtaque(descricaoArma, minForca, maxForca)
