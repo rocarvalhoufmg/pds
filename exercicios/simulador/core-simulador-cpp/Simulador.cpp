@@ -102,7 +102,7 @@ int Simulador::criarCombate(Personagem* personagem1, Personagem* personagem2)
 string Simulador::criarSaida(Personagem* personagem1, Personagem* personagem2, int dano)
 {
     string saida = "---------------------------------------------------------\n";
-    saida += "O personagem " + personagem1->getNome() + " irá atacar o " + personagem2->getNome() + "\n";
+    saida += "O personagem " + personagem1->getNome() + " ira atacar o " + personagem2->getNome() + "\n";
     saida += "com a sua arma " + personagem1->getArmaAtaque()->getDescricaoArma() + "\n";
     saida += "Dano causado = " + std::to_string(dano) + "\n";
     saida += dano > 0 ? personagem1->getNome() + ": " : "";

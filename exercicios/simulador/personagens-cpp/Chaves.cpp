@@ -17,5 +17,5 @@ int Chaves::criarDefesa()
 
 string Chaves::pegarDescricao() 
 {
-    return "Eii, não contava com a minha astucia?";
+    return "Eii, nao contava com a minha astucia?";
 }
